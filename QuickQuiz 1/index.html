@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz 1</title>
+</head>
+<body>
+    <!-- Without using br tag, write a vertically aligned form asking for name city and pincode -->
+     <form action="post">
+         <div>
+            <label for="username">Enter your name</label>
+            <input type="text" placeholder="Enter your name" id="username" name="username" autofocus required>
+        </div>
+        <div>
+            <label for="cities">Choose your city</label>
+            <div>
+                <select id="cities" required autofocus>
+                    <option value="city1">Indore</option>
+                    <option value="city2">Bhopal</option>
+                    <option value="city3">Jabalpur</option>
+                    <option value="city4">Betul</option>
+                    <option value="city5">Ujjain</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <label for="pincode">pincode</label>
+            <div>
+                <input type="number" placeholder="482003" name="pincode" id="pincode" required autofocus>
+            </div>
+        </div>
+        <button>Submit</button autofocus>
+     </form>
+</body>
+</html>
