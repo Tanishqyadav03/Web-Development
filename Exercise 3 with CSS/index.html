@@ -34,26 +34,30 @@
             box-shadow: 8px 5px 15px 0px orangered;
         }
 
-        span {
+        .capsule {
             display: inline-block;
             height: 15px;
             width: 80px;
             border: 2px solid white;
-            padding: 8px;
+            padding: 6px;
             margin: 10px 0px 0px 40px;
             border-radius: 8px;
             text-align: center;
         }
 
-        p {
-            text-align: center;
-            margin: 20px;
+        .name{
+            margin: 10px 0px 0px 10px;
+        }
+
+        .content {
+            margin: 10px 0px 0px 10px;
+
         }
 
         .readmore {
             position: absolute;
             left: 120px;
-            bottom: 30px;
+            bottom: 20px;
             padding: 6px;
             border-radius: 10px;
             color: black;
@@ -76,10 +80,11 @@
     <div class="card">
         <img id="cardimage" src="Pokemon.png" alt="Card-Image" height="250">
         <div>
-            <span>Pokemon</span>
-            <span>Fire-Power</span>
+            <span class="capsule">Pokemon</span>
+            <span class="capsule">Fire-Power</span>
         </div>
-        <p>
+        <h2 class="name">Charmender</h2>
+        <p class="content">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi mollitia doloribus voluptate iure dolores
             quasi, alias odit! Ratione, explicabo. Tempore repudiandae sunt earum modi magnam.
         </p>
