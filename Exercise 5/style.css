@@ -4,6 +4,10 @@
     background-color:rgb(0, 179, 255);
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
 .navbar{
     height: 60px; 
     width: 100vw; 
