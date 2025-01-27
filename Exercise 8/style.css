@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+.ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    font-size: 24px;
+    animation: bounce-X 3s linear infinite, bounce-Y 1s ease-out infinite alternate;
+    /* animation: bounce-ball 3s linear infinite alternate; */
+    position: absolute;
+
+}
+
+/* @keyframes bounce-ball {
+    0%{transform: translateX(0%) translateY(0%);}
+    50%{transform: translateX(825%) translateY(650%);}
+    100%{transform: translateX(1650%) translateY(0%);}
+} */
+
+@keyframes bounce-X{
+    from{
+        left: 0;
+    }
+    to{
+        left: 94%;
+    }
+}
+
+@keyframes bounce-Y{
+    from{
+        bottom: 0;
+    }
+    to{
+        bottom: 80%;
+    }
+}
